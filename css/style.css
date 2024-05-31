@@ -1,0 +1,17 @@
+.bgg-image {
+    background-image: url(../images/bgfirstpartt.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+.imgedit {
+    max-width: 100%;
+    height: 63%;
+}
+
+.edit {
+    color: darkblue;
+    font-weight: bolder;
+}
