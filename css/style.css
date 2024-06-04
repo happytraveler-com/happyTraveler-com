@@ -14,4 +14,41 @@
 .edit {
     color: darkblue;
     font-weight: bolder;
+    margin-top: 37px;
+}
+
+.form-edit {
+ display: flex;
+ flex-direction: row;
+ 
+} 
+
+.bg-boxes{
+   background-color: rgb(255, 255, 255);
+   border:  2px solid blue;
+}
+
+.btn-edit  {
+    width: 122px;
+    height: 36px;
+    margin-top: 26px;
+    border-radius: 6px;
+}
+
+.form2-edit {
+    width: 252px;
+    margin-left: 550px;
+    margin-top: 36px;
+}
+
+.form-edit3 {
+    margin-left: 332px;
+}
+
+.linktext-edit ::first-line{
+    color: rgb(255, 255, 255);
+}
+
+.btn-edit2{
+    color: white;
 }

@@ -28,38 +28,38 @@
                     <img src="/images/logo.jpeg" class="imgedit">
                 </div>
                 <div class="col-8">
-                    <nav class="navbar navbar-expand-sm navbar-dark" style=`
-                        background-color: $ {3: #e3f2fd;}`>
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                            aria-label="Toggle navigation"></button>
-                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <form class="d-flex form2-edit">
+                        <input class="form-control me-sm-2 " type="text" placeholder="Buscar" />
+                        <button class="btn btn-outline-success  my-2 my-sm-0" type="submit">
+                            <i class="fa-solid fa-magnifying-glass btn-edit2"></i>
+                        </button>
+                    </form>
+                    <nav class="navbar navbar-expand-sm navbar-dark ">
+                         <div class="collapse navbar-collapse  form-edit3   " id="collapsibleNavId">
                             <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#" aria-current="page">Home <span
-                                            class="visually-hidden">(current)</span></a>
+                                <li class="nav-item linktext-edit ">
+                                    <a class="nav-link   active" href="index.html">Inicio</a>
+                                    
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                <li class="nav-item linktext-edit">
+                                    <a class="nav-link " href="#">Contactanos</a>
+                                    
+                                </li>
+                                <li class="nav-item linktext-edit">
+                                    <a class="nav-link " href="#">Quienes somos?</a>
+                                    
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
+                                    <a class="nav-link dropdown-toggle   " href="#" id="dropdownId"
                                         data-bs-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">Dropdown</a>
+                                        aria-expanded="false" style="color: white;">Iniciar Sesion</a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                        <a class="dropdown-item" href="#">Action 1</a>
-                                        <a class="dropdown-item" href="#">Action 2</a>
+                                        <a class="dropdown-item" href="#">Iniciar</a>
+                                        <a class="dropdown-item" href="#">Crear cuenta</a>
                                     </div>
                                 </li>
                             </ul>
-                            <form class="d-flex my-2 my-lg-0">
-                                <input class="form-control me-sm-2" type="text" placeholder="Search" />
-                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                                    Search
-                                </button>
-                            </form>
-                        </div>
+                            </div>
                     </nav>
                  </div>
              </div>
@@ -70,16 +70,96 @@
                         <p>Tus sueños no tienen limites , por eso te acompañamos en la busqueda de tus tiquetes aeros
                             con las mejores opciones.
                         </p>
-                </div>
             </div>
-            <div class="row">
-                <div class="col-5">
+            </div>
+            <div class="container">
+                <div class="row bg-boxes">
+                    <div class="col-12  ">
+                        <div class="form-check form-check-inline">
+                            <input id="my-input" class="form-check-input" type="checkbox" name="" value="true">
+                            <label for="my-input" class="form-check-label">Solo Ida</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input id="my-input" class="form-check-input" type="checkbox" name="" value="true">
+                                <label for="my-input" class="form-check-label">Ida y regreso</label>
+                                </div>
+                                  
+                                   <div class="form-edit">
+                                    <div class="form-group  col-2">
+                                        <label for="my-select">Origen</label>
+                                        <select id="my-select" class="form-control" name="">
+                                            <option>Cual es tu origen?</option>
+                                            <option>Bogota</option>
+                                            <option>Medellin</option>
+    
+                                        </select>
+                                    </div>
+                                    <div class="form-group  col-2">
+                                        <label for="my-select">Destino</label>
+                                        <select id="my-select" class="form-control" name="">
+                                            <option>Cual es tu destino?</option>
+                                            <option>New York</option>
+                                            <option>Spain</option>
+                                            <option>Moscu</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group  col-2">
+                                        <label for="my-select">Fecha de Salida</label>
+                                           <select id="my-select" class="form-control" name="">
+                                               <option>24 junio 2024</option>
+                                             </select>
+                                       </div>
+                                       <div class="form-group  col-2">
+                                           <label for="my-select">Fecha de Llegada</label>
+                                           <select id="my-select" class="form-control" name="">
+                                               <option>(opcional)</option>         
+                                           </select>
+                                       </div>
+                   
+                                   
+                                   
+                                      <div class="mb-3 col-sm-2">  
+                                        <label for="" class="form-group">Pasajeros</label>
+                                        <select
+                                            class="form-select"
+                                            name=""
+                                            id=""
+                                        >
+                                            <option selected>Selecciona uno</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4</option>
+                                        </select>
+                                      </div>
+                                      
+                                       <button type="submit" class="btn-primary btn-edit"> Buscar </button>
+                                      
 
+
+                                   </div>
+                                    
+                                 
+                                
+                                
+                                 
+                            </div>
                 </div>
-                <div class="col-4"></div>
-                <div class="col-3"></div>
+                
+                   
+                        
+                        
+                 
+                
+                
             </div>
+              
+            
+           
     </div>
+
+  
+
+
     
     <!--Fin de banner Andrew-->
 
