@@ -15,3 +15,56 @@
     color: darkblue;
     font-weight: bolder;
 }
+
+/* footer de EVA*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #78CDD1;
+
+}
+
+
+
+
+
+
+
+footer{
+    padding: 80px 0;
+    
+}
+
+.type{
+    background-color: black;
+
+}
+
+.footer-row{
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 4px dotted gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h5{
+    color: black;
+    margin-bottom: 25%;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.copyright{
+    background-color: white;
+    text-align: center;
+}
+
+i{
+    font-size: 20px;
+}
