@@ -1,11 +1,80 @@
-/*estilos del body Rudy*/
+/*Estilos de Andrew*/
+body {
+    margin: 0;
+    padding: 0;
+}
+.bgg-image {
+    background-image: url(../images/bgfirstpartt.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+.Ru-menu {
+    position: fixed;
+    width: 100%;
+    
+    padding: 10px 0;
+}
+
+.imgedit {
+    max-width: 100%;
+    height: 63%;
+}
+
+.edit {
+    color: darkblue;
+    font-weight: bolder;
+    margin-top: 37px;
+}
+
+.form-edit {
+ display: flex;
+ flex-direction: row;
+ 
+} 
+
+.bg-boxes{
+   background-color: rgb(255, 255, 255);
+   border:  2px solid blue;
+}
+
+.btn-edit  {
+    width: 122px;
+    height: 36px;
+    margin-top: 26px;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+.btn-primary {
+    background-color:#0d6efd;
+    color: #fff;
+}
+
+.form2-edit {
+    width: 252px;
+    margin-left: 550px;
+    margin-top: 36px;
+}
+
+.form-edit3 {
+    margin-left: 332px;
+}
+
+.linktext-edit ::first-line{
+    color: rgb(255, 255, 255);
+}
+
+.btn-edit2{
+    color: white;
+}
+/*fin estilos Andrew*/
    
-body{
-        background-color: #BBCAFF;
-    }
-/*estilos del body Rudy*/
+
+
 
 /*estilos de las promociones y suscripciones Rudy*/
+
 .promos_cards{
     margin-top: 50px;
     margin-bottom: 10px;
@@ -27,3 +96,101 @@ body{
     color: darkblue;
     font-weight: bolder;
 }
+
+
+.subscription-container {
+    background-color: #d1d1f1;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.subscription-container div {
+    margin: 0 10px;
+}
+.parrafo{
+    font-size: 20px;
+}
+.subscription-container input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 750px;
+}
+.subscription-container button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subscription-container button:hover {
+    background-color: #444;
+}
+.terms {
+    font-size: 12px;
+    color: #000;
+    
+}
+
+
+
+/*Estilos Eva*/
+.footer {
+    background-color: #7fc3c8;
+    color: #000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer div {
+    flex: 1;
+    margin: 0 20px;
+}
+.footer h3 {
+    margin-top: 0;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
+.footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+.footer .contact-info {
+    display: flex;
+    align-items: center;
+}
+.footer .contact-info img {
+    margin-right: 10px;
+}
+.footer .payment-methods img {
+    margin-right: 10px;
+}
+.copyright{
+    background-image: url(../images/bgfirstpartt.png) ;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+/*fin estilos Eva*/
