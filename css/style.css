@@ -199,3 +199,12 @@ body {
 @media (max-width: 768px) {  
     
 } 
+
+
+
+/*RUDY PERFILES DE NOSOTROS*/
+.team-img img {  
+    max-height: 500px; /* Ajusta la altura máxima según tus necesidades */  
+    width: 100%;  
+    object-fit: cover; /* Esto asegura que la imagen se recorte y mantenga su proporción */  
+}
