@@ -16,7 +16,7 @@ const intervalo = setInterval(() => {
     fetch(url, {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': '1b4b85b21bmshc8fc63413cc7d3bp16963cjsnd33f4f8097a5',
+            'x-rapidapi-key': '6cc738814amshae27cb61f49c6e5p14f672jsn5bf915cf4613',
             'x-rapidapi-host': 'sky-scrapper.p.rapidapi.com',
             'Content-Type': 'application/json'
         }
@@ -89,7 +89,7 @@ const intervalo2 = setInterval(() => {
     fetch(url2, {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': '1b4b85b21bmshc8fc63413cc7d3bp16963cjsnd33f4f8097a5',
+            'x-rapidapi-key': '6cc738814amshae27cb61f49c6e5p14f672jsn5bf915cf4613',
             'x-rapidapi-host': 'sky-scrapper.p.rapidapi.com',
             'Content-Type': 'application/json'
         }
