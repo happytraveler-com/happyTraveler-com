@@ -192,7 +192,7 @@ async function fetchHotels() {
   const hotelData = await fetch('https://priceline-com-provider.p.rapidapi.com/v2/hotels/downloadHotels?language=es-ES&limit=100', {
     method: 'GET',
     headers: {
-      'x-rapidapi-key': '086f4ed0d2msh5e770a819e77bdbp19514bjsn9d837264928d',
+      'x-rapidapi-key': '57992f2980mshb06bec18fa30e35p17e6aejsne84f97e8a0b1',
       'x-rapidapi-host': 'priceline-com-provider.p.rapidapi.com',
       'Content-Type': 'application/json'
     }
@@ -369,11 +369,13 @@ const btnCerrarModal2 = document.createElement('BUTTON');
 
     //////////////// 3 er oferta  secciones de vuelos ///////////////////////////////////////
 
+     
+
     async function obtenerFlights() {
       const response =  await fetch('https://sky-scrapper.p.rapidapi.com/api/v2/flights/searchFlightsComplete?originSkyId=LOND&destinationSkyId=NYCA&originEntityId=27544008&destinationEntityId=27537542&date=2024-11-27&cabinClass=economy&adults=1&sortBy=best&currency=USD&market=en-US&countryCode=US', {
           method: 'GET',
     headers: {
-      'x-rapidapi-key': '086f4ed0d2msh5e770a819e77bdbp19514bjsn9d837264928d',
+      'x-rapidapi-key': '57992f2980mshb06bec18fa30e35p17e6aejsne84f97e8a0b1',
       'x-rapidapi-host': 'sky-scrapper.p.rapidapi.com',
           'Content-Type': 'application/json'
     }
