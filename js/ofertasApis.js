@@ -372,7 +372,7 @@ const btnCerrarModal2 = document.createElement('BUTTON');
      
 
     async function obtenerFlights() {
-      const response =  await fetch('https://sky-scrapper.p.rapidapi.com/api/v2/flights/searchFlightsComplete?originSkyId=LOND&destinationSkyId=NYCA&originEntityId=27544008&destinationEntityId=27537542&date=2024-11-27&cabinClass=economy&adults=1&sortBy=best&currency=USD&market=en-US&countryCode=US', {
+      const response =  await fetch('https://sky-scrapper.p.rapidapi.com/api/v2/flights/searchFlightsComplete?originSkyId=LOND&destinationSkyId=NYCA&originEntityId=27544008&destinationEntityId=27537542&date=2024-12-27&cabinClass=economy&adults=1&sortBy=best&currency=USD&market=en-US&countryCode=US', {
           method: 'GET',
     headers: {
       'x-rapidapi-key': '57992f2980mshb06bec18fa30e35p17e6aejsne84f97e8a0b1',
