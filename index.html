@@ -19,48 +19,87 @@
 
 </head>
 
-<body>
+<body >
     <!--inicio de banner Andrew-->
-    <div class="container-fluid">  
-        <header>  
-            <div class="row bgg-image">  
-                <div class="col-4">  
-                    <img src="/images/logo.jpeg" class="imgedit" alt="Logo">  
-                </div>  
-                <div class="col-8">  
-                    <form class="d-flex form2-edit">  
-                        <input class="form-control me-sm-2" type="text" placeholder="Buscar">  
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">  
-                            <i class="fa-solid fa-magnifying-glass btn-edit2"></i>  
-                        </button>  
-                    </form>  
-                    <nav class="navbar navbar-expand-sm navbar-dark">  
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">  
-                            <span class="navbar-toggler-icon"></span>  
-                        </button>  
-                        <div class="collapse navbar-collapse" id="collapsibleNavId">  
-                            <ul class="Ru-menu navbar-nav me-auto mt-2 mt-lg-0">  
-                                <li class="nav-item linktext-edit">  
-                                    <a class="nav-link active" href="index.html">Inicio</a>  
-                                </li>  
-                                <li class="nav-item linktext-edit">  
-                                    <a class="nav-link active" href="ofertasDestinos.html">Ofertas y destinos</a>  
-                                </li>  
-                                <li class="nav-item linktext-edit">  
-                                    <a class="nav-link" href="reservasCheck-In.html">Reservas - Check-in</a>  
-                                </li>  
-                                <li class="nav-item linktext-edit">  
-                                    <a class="nav-link" href="nosotros.html">Nosotros</a>  
-                                </li>  
-                                <li class="nav-item linktext-edit">  
-                                    <a class="nav-link" href="miCuenta.html">Mi cuenta</a>  
-                                </li>  
-                            </ul>  
+    <header id="header" class="fixed-top">  
+        <div class="container-fluid bg-light inner">  
+            <div class="container px-3">  
+                <nav class="navbar navbar-light navbar-expand-xl">  
+                    <a href="index.html" class="navbar-brand">  
+                        <img src="/images/logo.jpeg" alt="Logo happy" width="160" height="auto">  
+                    </a>  
+                    
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">  
+                        <span class="fa fa-bars text-primary"></span>  
+                    </button>  
+                    
+                    <div class="collapse navbar-collapse bg-light" id="navbarCollapse">  
+                        <div class="navbar-nav mx-auto">   
+                            <a class="dropdown-item mx-3" href="index.html">Inicio</a>  
+                            <a class="dropdown-item mx-3" href="ofertasDestinos.html">Ofertas y destinos</a>  
+                            <a class="dropdown-item mx-3" href="reservasCheck-In.html">Reservas - Check-in</a>  
+                            <a class="dropdown-item mx-3" href="nosotros.html">Nosotros</a>  
+                            <button class="btn btn-primary mx-3" onclick="myFunction()">Iniciar Sesión</button>   
                         </div>  
-                    </nav>  
-                </div>  
+                    </div>  
+                </nav>  
             </div>  
-        </header>  
+        </div>  
+    </header> 
+        <div class="container-fluid ">  
+        <!--Inicio contenedor formularios-->
+            <div class="container-forms" >
+                <!--Inicio de formulario de inicio de sesión -->
+                <div class="container" id="myDIV">
+                    <h2>Ingresar</h2>
+                    <form id="loginForm" onsubmit="return validateForm()">
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input class="form-control"  type="email" id="email-1" name="email" required>
+                      </div>
+                      <div class="form-group">
+                        <label  for="password">Contraseña</label>
+                        <input class="form-control" type="password" id="password-1" name="contrasena" required>
+                      </div>
+                       <div class="botones-login">
+                            <button type="submit" href="sesionPerfil.html" class="btn btn-primary">Iniciar Sesión</button>
+                            <button class="btn btn-primary" onclick="myFunction1()">Registrarse</button>
+                        </div>
+                    </form>
+                </div>
+        
+                <!--Fin de formulario-->
+                <!--formulario de registro-->
+                
+                <div class="container" id="formularioRegistro">
+                    <h2>Registro de Usuario</h2>
+                    <form id="registrationForm">
+                        <div class="form-group">
+                            <label for="fullName">Nombre completo:</label>
+                            <input type="text" class="form-control" id="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber">Número de celular:</label>
+                            <input type="tel" class="form-control" id="phoneNumber" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email-2">Email:</label>
+                            <input type="email" class="form-control" id="email-2" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Contraseña:</label>
+                            <input type="password" class="form-control" id="password-2" required>
+                        </div>
+                        <div class="btn-registrarse">
+                            <button type="submit" class="btn btn-primary">Registrarse</button>
+                        </div>
+                    </form>
+                </div>
+                <!--Fin de formulario de registro-->
+            </div>
+            <!--Fin contenedor formularios-->
+    
+         
     
         <div class="row text-center">
             <div class="col-12">

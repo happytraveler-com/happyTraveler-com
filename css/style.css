@@ -1,21 +1,40 @@
-/*Estilos de Andrew*/
-body {
-    margin: 0;
-    padding: 0;
-}
-.bgg-image {
-    background-image: url(../images/bgfirstpartt.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    
-    
-}
-.Ru-menu {
-    position: fixed;
-    width: 100%;
-    
-    padding: 10px 0;
-}
+body {  
+    padding-top: 400 px; /* Asegúrate de que el contenido principal no quede oculto detrás del encabezado fijo */ 
+    padding-top: 200 px;
+}   
+
+.fixed-top {  
+    position: fixed;  
+    top: 0;  
+    width: 100%;  
+    z-index: 1030; /* Asegúrate de que esté por encima de otros elementos */  
+}  
+
+.navbar {  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave en el menú */  
+}  
+
+.navbar-nav .dropdown-item {  
+    margin: 0 15px; /* Espaciado horizontal */  
+    font-weight: 600; /* Negrita para mejor legibilidad */  
+    color: #333; /* Color de texto */  
+}  
+
+.navbar-nav .dropdown-item:hover {  
+    color: #007bff; /* Color al pasar el mouse */  
+    text-decoration: underline; /* Subrayado para indicar interactividad */  
+}  
+
+.btn-primary {  
+    background-color: #007bff; /* Color de fondo */  
+    border: none; /* Sin borde */  
+    padding: 10px 20px; /* Espaciado interno */  
+}  
+
+.btn-primary:hover {  
+    background-color: #0056b3; /* Color al pasar el mouse */  
+}  
+
 
 .imgedit {
     max-width: 100%;
@@ -54,6 +73,9 @@ body {
 .btn-primary {
     background-color:#0d6efd;
     color: #fff;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */  
+    padding: 10px 20px; /* Ajusta el espaciado interno del botón */  
+    width: auto; /* Permite que el botón tenga un ancho automático */  
 }
 
 .form2-edit {
@@ -204,3 +226,15 @@ body {
 @media (max-width: 768px) {  
     
 } 
+
+
+
+/*RUDY PERFILES DE NOSOTROS*/
+.team-img img {  
+    max-height: 500px; /* Ajusta la altura máxima según tus necesidades */  
+    width: 100%;  
+    object-fit: cover; /* Esto asegura que la imagen se recorte y mantenga su proporción */  
+}
+#nosotros{
+    color: #000;
+}
